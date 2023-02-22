@@ -21,6 +21,7 @@ export const PickerTitle = styled.h2`
     #ffffff
   );
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `;
 

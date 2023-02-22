@@ -12,14 +12,6 @@ export class Dropdown extends Component {
     }));
   };
 
-  show = () => {
-    this.setState({ visible: true });
-  };
-
-  hide = () => {
-    this.setState({ visible: false });
-  };
-
   render() {
     const { visible } = this.state;
     return (
