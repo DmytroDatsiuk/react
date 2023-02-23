@@ -19,7 +19,6 @@ export class Dropdown extends Component {
         <DropButton onClick={this.toggle}>
           {visible ? 'Сховати' : 'Показати'}
         </DropButton>
-
         {visible && <DropShow>Випадаюче меню</DropShow>}
       </DropBox>
     );
